@@ -26,15 +26,15 @@ if platform.is_win then
       {
          name = 'wsl:ubuntu-fish',
          distribution = 'Ubuntu',
-         username = 'kevin',
-         default_cwd = '/home/kevin',
+         username = 'yu',
+         default_cwd = '/home/yu',
          default_prog = { 'fish', '-l' },
       },
       {
          name = 'wsl:ubuntu-bash',
          distribution = 'Ubuntu',
-         username = 'kevin',
-         default_cwd = '/home/kevin',
+         username = 'yu',
+         default_cwd = '/home/yu',
          default_prog = { 'bash', '-l' },
       },
    }
