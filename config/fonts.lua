@@ -1,20 +1,17 @@
 local wezterm = require('wezterm')
 local platform = require('utils.platform')
 
-local font_size = platform.is_mac and 12 or 13
+local font_size = platform.is_mac and 12 or 12
 
 return {
    font = wezterm.font_with_fallback({
-      -- {family = 'FiraCode Nerd Font', weight = 'Regular' },
-      -- {family = 'Maple Mono NF CN', weight = 'Regular' },
       {
-         family = 'Cascadia Code', 
-         weight = 'Regular',
-         harfbuzz_features = {'ss01', 'ss02', 'ss03', 'ss19', 'ss20'},
+         family = 'Cascadia Code',
+         -- weight = 'Regular',
+         harfbuzz_features = { 'ss01', 'ss02', 'ss03', 'ss19', 'ss20' },
       },
-      -- { family = '霞鹜文楷', weight = 'Regular' },
-      {family = '思源黑体', weight = 'DemiLight'},
-      {family = 'Symbols Nerd Font', weight = 'Regular'},
+      { family = '思源黑体', weight = 'DemiLight' },
+      { family = 'Symbols Nerd Font' },
    }),
    font_size = font_size,
 
