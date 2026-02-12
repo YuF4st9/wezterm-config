@@ -7,10 +7,10 @@ return {
    font = wezterm.font_with_fallback({
       {
          family = 'Cascadia Code',
-         --weight = 'Light',
-         harfbuzz_features = { 'ss01', 'ss02', 'ss03', 'ss19', 'ss20' },
+         weight = 'Regular',
+         harfbuzz_features = { 'calt', 'ss01', 'zero' },
       },
-      { family = '思源黑体', weight = 'DemiLight' },
+      { family = '思源黑体', weight = 'Regular' },
       { family = 'Symbols Nerd Font' },
    }),
    font_size = font_size,
