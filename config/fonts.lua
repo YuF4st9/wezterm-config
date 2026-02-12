@@ -10,7 +10,7 @@ return {
          weight = 'Regular',
          harfbuzz_features = { 'calt', 'ss01', 'zero' },
       },
-      { family = '思源黑体', weight = 'Regular' },
+      { family = 'Source Han Sans SC', weight = 'Regular' },
       { family = 'Symbols Nerd Font' },
    }),
    font_size = font_size,
